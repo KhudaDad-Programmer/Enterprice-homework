@@ -1,0 +1,9 @@
+package edu.kabul.campushub.model;
+
+public record Course(
+        Long id,
+        String code,
+        String title,
+        int credits
+) {
+}
